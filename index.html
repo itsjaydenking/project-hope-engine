@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Omens: Powered by Hope</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="page__body">
+        <header class="header">
+          <h1 class="header__title">Light Omens: Powered by Hope</h1>
+          <nav class="header__nav">
+            <!-- Navigation items like save/load, settings, etc. -->
+          </nav>
+        </header>
+
+        <!-- Main game area -->
+        <main class="game">
+          <!-- Character sheet section -->
+          <aside class="character">
+            <button
+              class="character__mobile-toggle"
+              aria-label="Toggle character sheet"
+            >
+              📋
+            </button>
+            <div class="character__sheet">
+              <h2 class="character__title">Character</h2>
+              <div class="character__info">
+                <!-- Character details will be populated here -->
+              </div>
+            </div>
+          </aside>
+
+          <!-- Gameplay section -->
+          <section class="gameplay">
+            <!-- Display section -->
+            <div class="display">
+              <div class="display__content">
+                <!-- Game text, images, and narrative content -->
+              </div>
+            </div>
+
+            <!-- Interaction section -->
+            <div class="interaction">
+              <div class="interaction__buttons">
+                <!-- Dynamic buttons will be populated here -->
+              </div>
+              <form class="interaction__input">
+                <input
+                  type="text"
+                  class="input input--text"
+                  placeholder="Enter your action..."
+                />
+                <button type="submit" class="btn btn--submit">Submit</button>
+              </form>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer">
+          <!-- Status information, version, etc. -->
+        </footer>
+      </div>
+    </div>
+    <script src="./pages/index.js" type="module"></script>
+  </body>
+</html>
